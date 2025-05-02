@@ -24,5 +24,21 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
+    - name: Modify file path in script
+      run: |
+        # Replace the Windows file path with a path that works in GitHub Actions
+        sed -i 's|C:\\\\Users\\\\LKASTI\\\\OneDrive\\\\UTD\\\\Coding Workspaces\\\\VS code Python\\\\my_programs\\\\labbinglegends_helpers\\\\rankedData\\\\|./data/|g' SF6_Scraper.py
+        
+    - name: Create data directory
+      run: mkdir -p ./data
+        
     - name: Run web scraper
       run: python SF6_Scraper.py
+      
+    - name: Commit and push if there are changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add ./data/
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update ranking data $(date +'%Y-%m-%d')"
+        git push
