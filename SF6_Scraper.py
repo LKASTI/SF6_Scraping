@@ -182,7 +182,7 @@ df = pd.DataFrame(tmp)
 import datetime
 current_date = datetime.datetime.now()
 current_date
-formatted_date = f"{current_date.month}-{current_date.day-1}-{current_date.year}"
+formatted_date = f"{current_date.month}-{current_date.day}-{current_date.year}"
 df.to_json(f"C:\\Users\\LKASTI\\OneDrive\\UTD\\Coding Workspaces\\VS code Python\\my_programs\\labbinglegends_helpers\\rankedData\\RankedPlayers_P8_S2_{formatted_date}.json", orient = 'records', compression = 'infer', index = 'true')
 df.to_json(orient = 'records', compression = 'infer', index = 'true')
 
