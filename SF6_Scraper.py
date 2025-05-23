@@ -26,9 +26,9 @@ Rankers = {"key":[],"CFN":[],"Rank":[],"MR":[],"Character":[],"Usercode":[],"Cou
 
 cookies = {
     # 'CookieConsent': 'stamp:%27wPhKUOAlW9vgBwic2pI93I0j1CzG8UjOUD4jOI0D09ty7l4J/JM49Q==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:3%2Cutc:1729394468388%2Cregion:%27us-48%27',
-    'buckler_id': 'QrkBngMLqRBaMJmRinKxKwCk0DlPiIKqGINYDhYiGNqt3jFVdxqkn8XilKgflBc7',
+    'buckler_id': 'OPEioCeCzCDzgSEtYo3Z_PznWQS7AVNfCkCsdik4Zd-1TtWH84x6E3pRrWhetEqS',
     'buckler_r_id': 'a3869b62-5f7a-40db-b681-bb5a70485f25',
-    'buckler_praise_date': '1745109685695'
+    'buckler_praise_date': '1748037554118'
 }
 
 
