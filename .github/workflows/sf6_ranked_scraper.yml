@@ -3,7 +3,7 @@ name: SF6 Ranked Data Scraper
 on:
   schedule:
     # Run at 7:15 PM CST (1:15 AM UTC)
-    - cron: '* */3 * * *'
+    - cron: '0 23 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
