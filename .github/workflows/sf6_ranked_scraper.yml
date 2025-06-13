@@ -33,7 +33,12 @@ jobs:
       run: mkdir -p ./data
         
     - name: Run web scraper
-      run: python SF6_Scraper.py
+      uses: nick-fields/retry@v3
+      with:
+        timeout_minutes: 25
+        max_attempts: 3
+        retry_wait_seconds: 10
+        command: python SF6_Scraper.py
       
     - name: Commit and push if there are changes
       run: |
