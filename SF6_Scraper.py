@@ -25,9 +25,9 @@ Rankers = {"key":[],"CFN":[],"Rank":[],"MR":[],"Character":[],"Usercode":[],"Cou
 
 
 cookies = {
-    'buckler_id': 'lctBGjmzK7a76MHaOyCtlo6D6i241TRRaa2pAKfQPufw6BrW8cI2PP8XFwL09yyX',
+    'buckler_id': 'TtrpqqznzvgBmy94fV_QSwS_1Sc37WCJhUelGiU4IXMrDz0fQx-Zcm7rHvrcvGai',
     'buckler_r_id': 'a3869b62-5f7a-40db-b681-bb5a70485f25',
-    'buckler_praise_date': '1757201763978'
+    'buckler_praise_date': '1757634852759'
 }
 
 
