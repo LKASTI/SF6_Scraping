@@ -182,6 +182,6 @@ import datetime
 current_date = datetime.datetime.now()
 current_date
 formatted_date = f"{current_date.month}-{current_date.day}-{current_date.year}"
-df.to_json(f"C:\\Users\\LKASTI\\OneDrive\\UTD\\Coding Workspaces\\VS code Python\\my_programs\\labbinglegends_helpers\\rankedData\\RankedPlayers_P9_S3_{formatted_date}.json", orient = 'records', compression = 'infer', index = 'true')
+df.to_json(f"C:\\Users\\LKASTI\\OneDrive\\UTD\\Coding Workspaces\\VS code Python\\my_programs\\labbinglegends_helpers\\rankedData\\RankedPlayers_P10_S3_{formatted_date}.json", orient = 'records', compression = 'infer', index = 'true')
 df.to_json(orient = 'records', compression = 'infer', index = 'true')
 
